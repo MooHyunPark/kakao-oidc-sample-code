@@ -11,7 +11,7 @@ public class MyHttpUtil {
 
     public static UserResponse.KakaoDTO post(String code){
         String redirectUri = "http://localhost:8080/oauth";
-        String clientId = "730a8ec7e91f04ab2647991ef34f1f81";
+        String clientId = "caefd05138bce05df366ee94d807a224";
 
         RestTemplate restTemplate = new RestTemplate();
         String url = "https://kauth.kakao.com/oauth/token";
